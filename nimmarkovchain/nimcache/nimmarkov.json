@@ -1,0 +1,17 @@
+{"compile":[
+["/home/ryan/dev/nimmarkovchain/nimcache/NiMMarkov_nimmarkov.c", "gcc -c  -w  -I/home/ryan/dev/nim-0.17.2/lib -o /home/ryan/dev/nimmarkovchain/nimcache/NiMMarkov_nimmarkov.o /home/ryan/dev/nimmarkovchain/nimcache/NiMMarkov_nimmarkov.c"],
+],
+"link":[
+"/home/ryan/dev/nimmarkovchain/nimcache/NiMMarkov_nimmarkov.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_system.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_os.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_strutils.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_parseutils.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_math.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_algorithm.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_times.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_posix.o",
+"/home/ryan/dev/nimmarkovchain/nimcache/stdlib_ospaths.o"
+],
+"linkcmd": "gcc   -o /home/ryan/dev/nimmarkovchain/bin/nimmarkov  /home/ryan/dev/nimmarkovchain/nimcache/NiMMarkov_nimmarkov.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_system.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_os.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_strutils.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_parseutils.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_math.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_algorithm.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_times.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_posix.o /home/ryan/dev/nimmarkovchain/nimcache/stdlib_ospaths.o  -lm -lrt   -ldl"
+}
